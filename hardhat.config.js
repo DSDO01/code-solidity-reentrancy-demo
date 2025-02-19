@@ -16,6 +16,8 @@ module.exports = {
     mainnet: {
       url: "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID", // Replace with your Infura or Alchemy endpoint
       accounts: [
+// line changed manually
+        
         "0x4c0883a6910395b27e573c348de11747f3fba24c51d607381672c6bc1d2d55e8", // DO NOT hardcode private keys like this | should use instead accounts: [process.env.PRIVATE_KEY]
       ],
     },
