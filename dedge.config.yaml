@@ -1,0 +1,9 @@
+config:
+  framework: "hardhat" 
+  framework_version: "^2.11.2" 
+  node_version: "18" 
+  package_manager: "npm"
+
+tasks:
+  install-dependencies:
+    - npm install
